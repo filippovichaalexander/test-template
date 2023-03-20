@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Lato:wght@100;300;400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>test Filippovich</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <img src="./assets/logo.png" alt="" class="logo" />
+          <nav class="nav uppercase--text">
+            <span class="nav__item">Бизнес</span>
+            <span class="nav__item">О нас</span>
+            <span class="nav__item">Цены</span>
+            <span class="nav__item">Оформить заказ</span>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="main">
+      <div class="container">
+        <div class="main__wrapper">
+          <div class="main__content">
+            <h1 class="main__title uppercase--text">
+              <span class="blue--text">Lorem ipsum</span> dolor sit amet
+              consectetur <span class="blue--text">adipiscing</span>
+            </h1>
+            <div class="main__bottom">
+              <h2 class="main__bottom-subtitle main--bottom-text" >
+                At vero eos et accusamus et iusto odio dignissimos ducimus!
+              </h2>
+              <ul class="main__bottom-list ul--dashed main--bottom-text">
+                <li class="main__bottom-li">Totam rem aperiam eaque ipsa</li>
+                <li class="main__bottom-li">
+                  Sit voluptatem accusantium doloremque laudantium
+                </li>
+                <li class="main__bottom-li">
+                  Sed ut perspiciatis, unde omnis iste natus error
+                </li>
+              </ul>
+            </div>
+            <div class="main__btns-wrapper">
+              <button class="btn main--btn-dark uppercase--text">
+                Заказать
+              </button>
+              <button class="btn main--btn-light uppercase--text">
+                Подробнее
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="ordering">
+      <div class="container">
+        <div class="ordering__wrapper">
+          <div class="ordering__top">
+            <h2 class="ordering__title uppercase--text">Оформление<span class="blue--text"> Заказа</span></h2>
+            <h3 class="ordering__subtitle">
+              Перед заполнением формы ознакомьтесь с нашей схемой работы!
+            </h3>
+          </div>
+          <div class="ordering__middle">
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img src="./assets/order-i-mag.png" alt="search-magnifying" class="ordering__middle-item-icon">
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img src="./assets/order-i-perc.png" alt="percent" class="ordering__middle-item-icon">
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img src="./assets/order-i-doc.png" alt="docment" class="ordering__middle-item-icon">
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img src="./assets/order-i-lett.png" alt="email" class="ordering__middle-item-icon">
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+            <div class="ordering__middle-item">
+              <span class="circle--dot circle1"></span>
+              <span class="circle--dot circle2"></span>
+              <span class="circle--dot circle3"></span>
+              <div class="ordering__middle-item-icon-wrapper">
+                <img src="./assets/order-i-money.png" alt="money" class="ordering__middle-item-icon">
+              </div>
+              <p class="ordering__middle-content">Lorem ipsum dolor sit amet</p>
+            </div>
+          </div>
+          <div class="ordering__bottom">
+            <form action="submit" class="form">
+              <div class="form__row">
+                <div class="select__wrapper form__row-item">
+                  <label for="select" class="select">
+                    <input type="radio" name="list" value="not_changed" checked />
+                    <input class="form" type="radio" name="list" value="not_changed" id="select">
+                    <span class="arrow"></span>
+                    <div class="items">
+                      <input type="radio" name="list" value="first_value" id="list[0]">
+                      <label for="list[0]">Sed ut perspiciatis</label>
+                      <input type="radio" name="list" value="second_value" id="list[1]">
+                      <label for="list[1]">Nemo enim ipsam</label>
+                      <input type="radio" name="list" value="third_value" id="list[2]">
+                      <label for="list[2]">Temporibus autem</label>
+                      <input type="radio" name="list" value="fourth_value" id="list[3]">
+                      <label for="list[3]">Itaque earum rerum</label>
+                      <span class="select-text" id="text">Выберете тип системы</span>
+                    </div>
+                  </label>
+                </div>
+              
+              
+                <input type="text" class="ordering__input form__row-item">
+                <input type="text" class="ordering__input form__row-item">
+                
+              </div>
+              <div class="form__row">
+                <input type="range">
+                <button class="btn main--btn-light uppercase--text">
+                  Подробнее
+                </button>
+              </div>
+            </form>
+            <button class="btn main--btn-dark uppercase--text">
+              Подробнее
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
